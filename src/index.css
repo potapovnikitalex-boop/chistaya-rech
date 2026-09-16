@@ -1,0 +1,50 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Nunito', sans-serif;
+
+  --color-cream: #fffaf2;
+  --color-cream-soft: #fff1de;
+  --color-ink: #16243d;
+  --color-ink-soft: #5b6478;
+
+  --color-primary: #f48c06;
+  --color-primary-dark: #d9760a;
+  --color-primary-light: #fff1de;
+
+  --color-sky: #2a86c9;
+  --color-sky-dark: #123a63;
+  --color-sky-light: #eaf4fc;
+
+  --color-leaf: #7cc242;
+  --color-mint: #eaf3f1;
+  --color-teal: #5fa398;
+
+  --color-sun: #ffc72c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
+
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+.card-soft {
+  border-radius: 28px;
+  box-shadow: 0 16px 40px -12px rgba(22, 36, 61, 0.16);
+}
+
+.btn-pill {
+  border-radius: 999px;
+  font-family: var(--font-heading);
+  font-weight: 700;
+}
