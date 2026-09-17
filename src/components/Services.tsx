@@ -1,5 +1,3 @@
-import servicesIcon from '../assets/icons/services.webp'
-
 const SERVICES = [
   {
     title: 'Диагностика',
@@ -31,8 +29,7 @@ export default function Services() {
   return (
     <section id="services" className="bg-white py-16 sm:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <p className="flex items-center justify-center gap-2 font-heading text-sm font-bold uppercase tracking-wide text-primary">
-          <img src={servicesIcon} alt="" className="h-8 w-8" />
+        <p className="text-center font-heading text-sm font-bold uppercase tracking-wide text-primary">
           Направления работы
         </p>
         <h2 className="mt-2 text-center font-heading text-2xl font-extrabold text-sky-dark sm:text-3xl">

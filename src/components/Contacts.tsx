@@ -1,5 +1,4 @@
 import { type FormEvent, useState } from 'react'
-import contactsIcon from '../assets/icons/contacts.webp'
 
 const CONTACT_EMAIL = '[email@example.com]'
 
@@ -15,8 +14,7 @@ export default function Contacts() {
     <section id="contacts" className="bg-sky-light py-16 sm:py-24">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 sm:px-6 lg:grid-cols-2 force-mobile:grid-cols-1!">
         <div>
-          <p className="flex items-center gap-2 font-heading text-sm font-bold uppercase tracking-wide text-primary">
-            <img src={contactsIcon} alt="" className="h-8 w-8" />
+          <p className="font-heading text-sm font-bold uppercase tracking-wide text-primary">
             Контакты
           </p>
           <h2 className="mt-2 font-heading text-2xl font-extrabold text-sky-dark sm:text-3xl">

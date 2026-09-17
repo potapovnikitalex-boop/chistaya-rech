@@ -1,11 +1,8 @@
-import aboutIcon from '../assets/icons/about.webp'
-
 export default function About() {
   return (
     <section id="about" className="bg-cream py-16 sm:py-24">
       <div className="mx-auto max-w-3xl px-4 sm:px-6">
-        <p className="flex items-center gap-2 font-heading text-sm font-bold uppercase tracking-wide text-primary">
-          <img src={aboutIcon} alt="" className="h-8 w-8" />
+        <p className="font-heading text-sm font-bold uppercase tracking-wide text-primary">
           Обо мне
         </p>
         <h2 className="mt-2 font-heading text-2xl font-extrabold text-sky-dark sm:text-3xl">

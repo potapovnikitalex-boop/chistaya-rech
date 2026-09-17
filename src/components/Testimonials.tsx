@@ -1,5 +1,3 @@
-import testimonialsIcon from '../assets/icons/testimonials.webp'
-
 const REVIEWS = [
   {
     name: '[Имя родителя]',
@@ -19,8 +17,7 @@ export default function Testimonials() {
   return (
     <section id="testimonials" className="bg-white py-16 sm:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <p className="flex items-center justify-center gap-2 font-heading text-sm font-bold uppercase tracking-wide text-primary">
-          <img src={testimonialsIcon} alt="" className="h-8 w-8" />
+        <p className="text-center font-heading text-sm font-bold uppercase tracking-wide text-primary">
           Отзывы
         </p>
         <h2 className="mt-2 text-center font-heading text-2xl font-extrabold text-sky-dark sm:text-3xl">
