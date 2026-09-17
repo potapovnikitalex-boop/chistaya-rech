@@ -1,15 +1,21 @@
+import aboutIcon from '../assets/icons/about.webp'
+import anastasiaPhoto from '../assets/anastasia-photo.jpg'
+
 export default function About() {
   return (
     <section id="about" className="bg-cream py-16 sm:py-24">
       <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 sm:px-6 lg:grid-cols-[minmax(0,320px)_1fr] force-mobile:grid-cols-1!">
-        <div className="card-soft mx-auto flex aspect-square w-full max-w-xs items-center justify-center bg-sky-light font-heading text-lg font-bold text-sky-dark">
-          Фото
-          <br />
-          Анастасии
+        <div className="card-soft mx-auto aspect-[3/4] w-full max-w-xs overflow-hidden bg-white">
+          <img
+            src={anastasiaPhoto}
+            alt="Анастасия — учитель-логопед"
+            className="h-full w-full object-cover"
+          />
         </div>
 
         <div>
-          <p className="font-heading text-sm font-bold uppercase tracking-wide text-primary">
+          <p className="flex items-center gap-2 font-heading text-sm font-bold uppercase tracking-wide text-primary">
+            <img src={aboutIcon} alt="" className="h-8 w-8" />
             Обо мне
           </p>
           <h2 className="mt-2 font-heading text-2xl font-extrabold text-sky-dark sm:text-3xl">

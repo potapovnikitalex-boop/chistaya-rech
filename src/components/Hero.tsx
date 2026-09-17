@@ -1,4 +1,4 @@
-import heroBanner from '../assets/banners/banner-1-zanyatie.svg'
+import anastasiaPhoto from '../assets/anastasia-photo.jpg'
 
 export default function Hero() {
   return (
@@ -6,15 +6,14 @@ export default function Hero() {
       <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-14 sm:px-6 lg:grid-cols-2 lg:py-20 force-mobile:grid-cols-1!">
         <div>
           <span className="btn-pill inline-block bg-coral-light px-4 py-1.5 text-sm font-bold text-coral-dark">
-            Онлайн-занятия для детей от 4 до 10 лет
+            Анастасия — учитель-логопед
           </span>
           <h1 className="mt-4 font-heading text-3xl font-extrabold leading-tight text-sky-dark sm:text-4xl lg:text-[42px]">
-            Учим говорить чисто —{' '}
-            <span className="text-coral">легко и с удовольствием</span>
+            Чистая речь <span className="text-coral">для детей от 4 лет</span>
           </h1>
           <p className="mt-5 max-w-lg text-lg text-ink-soft">
-            Логопед Анастасия проводит игровые занятия по видеосвязи: диагностика,
-            постановка и автоматизация звуков — без очередей и поездок, прямо из дома.
+            Учим говорить чисто, легко и с удовольствием: игровые занятия по видеосвязи —
+            диагностика, постановка и автоматизация звуков — без очередей и поездок, прямо из дома.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
@@ -50,8 +49,8 @@ export default function Hero() {
 
         <div className="card-soft overflow-hidden bg-white">
           <img
-            src={heroBanner}
-            alt="Дети занимаются с логопедом, рядом попугай-помощник"
+            src={anastasiaPhoto}
+            alt="Анастасия — учитель-логопед"
             className="h-full w-full object-cover"
           />
         </div>
