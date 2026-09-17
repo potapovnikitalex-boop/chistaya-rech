@@ -1,27 +1,47 @@
 @import 'tailwindcss';
 
+/*
+ * Дизайн-токены синхронизированы с брендбуком
+ * (assets-source/brand-v2/Brendbuk_Anastasia_logoped_1.pdf, версия 1.0).
+ * Не менять значения без сверки с брендбуком.
+ */
 @theme {
-  --font-heading: 'Poppins', sans-serif;
-  --font-body: 'Nunito', sans-serif;
+  --font-heading: 'Nunito', sans-serif;
+  --font-body: 'Montserrat', sans-serif;
+  --font-accent: 'Caveat', cursive;
 
-  --color-cream: #fffaf2;
-  --color-cream-soft: #fff1de;
-  --color-ink: #16243d;
-  --color-ink-soft: #5b6478;
+  /* Нейтральные (брендбук, стр. 2) */
+  --color-cream: #faf2df;
+  --color-cream-soft: #fffbf3;
+  --color-ink: #3a4248;
+  --color-ink-soft: #6b7480;
 
-  --color-primary: #f48c06;
-  --color-primary-dark: #d9760a;
-  --color-primary-light: #fff1de;
+  /* Основной фирменный — голубой: заголовки, кнопки */
+  --color-primary: #498db8;
+  --color-primary-dark: #326486;
+  --color-primary-light: #dae7f0;
+  --color-sky-dark: #326486;
+  --color-sky-light: #dae7f0;
 
-  --color-sky: #2a86c9;
-  --color-sky-dark: #123a63;
-  --color-sky-light: #eaf4fc;
+  /* Тёплый жёлтый — акценты, звёздочки, выделения */
+  --color-yellow: #fbb220;
+  --color-yellow-light: #feefd1;
+  --color-sun: #fbb220;
 
-  --color-leaf: #7cc242;
-  --color-mint: #eaf3f1;
-  --color-teal: #5fa398;
+  /* Кораллово-оранжевый — яркие акценты, важные детали */
+  --color-coral: #da4f1f;
+  --color-coral-dark: #ae421d;
+  --color-coral-light: #f7dbd1;
 
-  --color-sun: #ffc72c;
+  /* Глубокий бирюзовый — второстепенные акценты, плашки */
+  --color-teal: #317c79;
+  --color-teal-dark: #245c5a;
+  --color-teal-light: #d5e4e3;
+  --color-mint: #d5e4e3;
+
+  /* Зелёный — дополнительные акценты */
+  --color-leaf: #66ab65;
+  --color-leaf-light: #dfeddf;
 }
 
 html {
@@ -38,9 +58,13 @@ body {
   font-family: var(--font-heading);
 }
 
+.font-accent {
+  font-family: var(--font-accent);
+}
+
 .card-soft {
   border-radius: 28px;
-  box-shadow: 0 16px 40px -12px rgba(22, 36, 61, 0.16);
+  box-shadow: 0 16px 40px -12px rgba(58, 66, 72, 0.14);
 }
 
 .btn-pill {

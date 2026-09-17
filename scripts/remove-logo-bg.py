@@ -1,8 +1,8 @@
 from PIL import Image
 import sys
 
-src = "src/assets/logo-source.jpg"
-dst = "src/assets/logo.png"
+src = sys.argv[1] if len(sys.argv) > 1 else "src/assets/logo-source.jpg"
+dst = sys.argv[2] if len(sys.argv) > 2 else "src/assets/logo.png"
 
 img = Image.open(src).convert("RGBA")
 w, h = img.size

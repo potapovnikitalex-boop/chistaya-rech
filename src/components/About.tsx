@@ -13,13 +13,17 @@ export default function About() {
             Обо мне
           </p>
           <h2 className="mt-2 font-heading text-2xl font-extrabold text-sky-dark sm:text-3xl">
-            Анастасия — логопед-дефектолог
+            Анастасия — учитель-логопед
           </h2>
+          <p className="mt-3 max-w-2xl font-semibold text-primary-dark">
+            Миссия: сделать путь к чистой речи лёгким, спокойным и радостным — для ребёнка
+            и для родителей.
+          </p>
           <p className="mt-4 max-w-2xl text-lg text-ink-soft">
-            [Плейсхолдер] Работаю с детьми от 3 лет, опыт очных и онлайн-занятий — Х лет.
-            Специализируюсь на постановке и автоматизации звуков, преодолении задержки речевого
-            развития, подготовке к школе. Веду занятия в игровой форме, чтобы ребёнок не уставал
-            и ждал следующей встречи.
+            [Плейсхолдер] Помогаю детям от 4 до 10 лет говорить чисто, уверенно и красиво.
+            Опыт очных и онлайн-занятий — Х лет. Специализируюсь на диагностике речи, постановке
+            и автоматизации звуков, формировании правильной и чистой речи. Веду занятия в игровой
+            форме, чтобы ребёнок не уставал и ждал следующей встречи.
           </p>
 
           <ul className="mt-6 grid gap-3 sm:grid-cols-2">
@@ -35,6 +39,13 @@ export default function About() {
               </li>
             ))}
           </ul>
+
+          <blockquote className="card-soft mt-8 border-l-4 border-coral bg-white p-6">
+            <p className="font-accent text-2xl leading-snug text-ink sm:text-[28px]">
+              «Играя, мы мягко ставим звук [р] — ребёнок даже не замечает, что это занятие».
+            </p>
+            <footer className="mt-2 font-accent text-xl text-ink-soft">— Анастасия</footer>
+          </blockquote>
         </div>
       </div>
     </section>

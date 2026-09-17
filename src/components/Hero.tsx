@@ -5,12 +5,12 @@ export default function Hero() {
     <section id="top" className="overflow-hidden bg-sky-light">
       <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-14 sm:px-6 lg:grid-cols-2 lg:py-20">
         <div>
-          <span className="btn-pill inline-block bg-primary-light px-4 py-1.5 text-sm font-bold text-primary-dark">
-            Онлайн-занятия для детей от 3 лет
+          <span className="btn-pill inline-block bg-coral-light px-4 py-1.5 text-sm font-bold text-coral-dark">
+            Онлайн-занятия для детей от 4 до 10 лет
           </span>
           <h1 className="mt-4 font-heading text-3xl font-extrabold leading-tight text-sky-dark sm:text-4xl lg:text-[42px]">
             Учим говорить чисто —{' '}
-            <span className="text-primary">легко и с удовольствием</span>
+            <span className="text-coral">легко и с удовольствием</span>
           </h1>
           <p className="mt-5 max-w-lg text-lg text-ink-soft">
             Логопед Анастасия проводит игровые занятия по видеосвязи: диагностика,
