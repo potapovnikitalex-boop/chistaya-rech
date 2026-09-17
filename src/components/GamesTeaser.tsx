@@ -10,8 +10,8 @@ const UPCOMING_GAMES = [
 export default function GamesTeaser() {
   return (
     <section id="games" className="bg-mint py-16 sm:py-24">
-      <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 sm:px-6 lg:grid-cols-2">
-        <div className="card-soft overflow-hidden bg-white order-2 lg:order-1">
+      <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 sm:px-6 lg:grid-cols-2 force-mobile:grid-cols-1!">
+        <div className="card-soft overflow-hidden bg-white order-2 lg:order-1 force-mobile:order-2!">
           <img
             src={parrotBanner}
             alt="Попугай-помощник — маскот игровой платформы «Чистая речь»"
@@ -19,7 +19,7 @@ export default function GamesTeaser() {
           />
         </div>
 
-        <div className="order-1 lg:order-2">
+        <div className="order-1 lg:order-2 force-mobile:order-1!">
           <p className="font-heading text-sm font-bold uppercase tracking-wide text-primary">
             Скоро на сайте
           </p>

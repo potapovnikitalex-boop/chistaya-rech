@@ -23,7 +23,7 @@ export default function Header() {
           </span>
         </a>
 
-        <nav className="hidden items-center gap-7 font-body text-[15px] font-bold text-ink lg:flex">
+        <nav className="hidden items-center gap-7 font-body text-[15px] font-bold text-ink lg:flex force-mobile:hidden!">
           {NAV_LINKS.map((link) => (
             <a key={link.href} href={link.href} className="transition-colors hover:text-primary">
               {link.label}
@@ -34,7 +34,7 @@ export default function Header() {
         <div className="flex items-center gap-3">
           <a
             href="#contacts"
-            className="btn-pill hidden bg-primary px-5 py-2.5 text-sm text-white transition-transform hover:-translate-y-0.5 hover:bg-primary-dark sm:inline-block"
+            className="btn-pill hidden bg-primary px-5 py-2.5 text-sm text-white transition-transform hover:-translate-y-0.5 hover:bg-primary-dark sm:inline-block force-mobile:hidden!"
           >
             Записаться
           </a>
@@ -44,7 +44,7 @@ export default function Header() {
             aria-label="Открыть меню"
             aria-expanded={menuOpen}
             onClick={() => setMenuOpen((open) => !open)}
-            className="flex h-10 w-10 flex-col items-center justify-center gap-1.5 rounded-full lg:hidden"
+            className="flex h-10 w-10 flex-col items-center justify-center gap-1.5 rounded-full lg:hidden force-mobile:flex!"
           >
             <span
               className={`h-0.5 w-6 bg-ink transition-transform ${menuOpen ? 'translate-y-2 rotate-45' : ''}`}
@@ -58,7 +58,7 @@ export default function Header() {
       </div>
 
       {menuOpen && (
-        <nav className="flex flex-col gap-1 border-t border-ink/10 bg-white px-4 pb-4 pt-2 font-body text-base font-bold text-ink lg:hidden">
+        <nav className="flex flex-col gap-1 border-t border-ink/10 bg-white px-4 pb-4 pt-2 font-body text-base font-bold text-ink lg:hidden force-mobile:flex!">
           {NAV_LINKS.map((link) => (
             <a
               key={link.href}

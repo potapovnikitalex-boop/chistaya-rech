@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <section id="about" className="bg-cream py-16 sm:py-24">
-      <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 sm:px-6 lg:grid-cols-[minmax(0,320px)_1fr]">
+      <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 sm:px-6 lg:grid-cols-[minmax(0,320px)_1fr] force-mobile:grid-cols-1!">
         <div className="card-soft mx-auto flex aspect-square w-full max-w-xs items-center justify-center bg-sky-light font-heading text-lg font-bold text-sky-dark">
           Фото
           <br />

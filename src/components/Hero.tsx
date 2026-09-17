@@ -3,7 +3,7 @@ import heroBanner from '../assets/banners/banner-1-zanyatie.svg'
 export default function Hero() {
   return (
     <section id="top" className="overflow-hidden bg-sky-light">
-      <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-14 sm:px-6 lg:grid-cols-2 lg:py-20">
+      <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-14 sm:px-6 lg:grid-cols-2 lg:py-20 force-mobile:grid-cols-1!">
         <div>
           <span className="btn-pill inline-block bg-coral-light px-4 py-1.5 text-sm font-bold text-coral-dark">
             Онлайн-занятия для детей от 4 до 10 лет

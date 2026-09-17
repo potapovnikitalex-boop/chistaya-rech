@@ -32,7 +32,7 @@ export default function Process() {
           Как проходят занятия
         </h2>
 
-        <ol className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <ol className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4 force-mobile:grid-cols-1!">
           {STEPS.map((step) => (
             <li key={step.n} className="card-soft bg-white p-6">
               <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary font-heading text-lg font-extrabold text-white">

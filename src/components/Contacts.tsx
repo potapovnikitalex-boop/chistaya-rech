@@ -12,7 +12,7 @@ export default function Contacts() {
 
   return (
     <section id="contacts" className="bg-sky-light py-16 sm:py-24">
-      <div className="mx-auto grid max-w-6xl gap-10 px-4 sm:px-6 lg:grid-cols-2">
+      <div className="mx-auto grid max-w-6xl gap-10 px-4 sm:px-6 lg:grid-cols-2 force-mobile:grid-cols-1!">
         <div>
           <p className="font-heading text-sm font-bold uppercase tracking-wide text-primary">
             Контакты
