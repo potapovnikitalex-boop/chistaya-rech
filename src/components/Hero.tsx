@@ -15,8 +15,7 @@ export default function Hero() {
         </div>
 
         <p className="mt-8 max-w-2xl text-lg text-ink-soft">
-          Учим говорить чисто, легко и с удовольствием: игровые занятия по видеосвязи —
-          диагностика, постановка и автоматизация звуков — без очередей и поездок, прямо из дома.
+          Говорить чисто и уверенно — навык, который можно развить.
         </p>
 
         <div className="mt-6 flex flex-wrap items-center gap-4">
@@ -26,26 +25,16 @@ export default function Hero() {
           >
             Записаться на диагностику
           </a>
-          <a
-            href="#services"
-            className="btn-pill bg-white px-7 py-3.5 text-sky-dark shadow-md transition-transform hover:-translate-y-0.5"
-          >
-            Что мы разбираем
-          </a>
         </div>
 
-        <dl className="mt-10 grid grid-cols-3 gap-4 sm:max-w-md">
+        <dl className="mt-10 grid grid-cols-2 gap-4 sm:max-w-sm">
           <div>
             <dt className="font-heading text-2xl font-extrabold text-primary sm:text-3xl">100%</dt>
             <dd className="text-xs font-semibold text-ink-soft sm:text-sm">онлайн-формат</dd>
           </div>
           <div>
-            <dt className="font-heading text-2xl font-extrabold text-primary sm:text-3xl">25 мин</dt>
+            <dt className="font-heading text-2xl font-extrabold text-primary sm:text-3xl">30 мин</dt>
             <dd className="text-xs font-semibold text-ink-soft sm:text-sm">игровое занятие</dd>
-          </div>
-          <div>
-            <dt className="font-heading text-2xl font-extrabold text-primary sm:text-3xl">4</dt>
-            <dd className="text-xs font-semibold text-ink-soft sm:text-sm">направления работы</dd>
           </div>
         </dl>
       </div>

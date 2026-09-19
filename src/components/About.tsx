@@ -9,8 +9,8 @@ export default function About() {
           Анастасия — учитель-логопед
         </h2>
         <p className="mt-3 font-semibold text-primary-dark">
-          Миссия: сделать путь к чистой речи лёгким, спокойным и радостным — для ребёнка
-          и для родителей.
+          Мой принцип: уважение к ученику и уместная требовательность. Я бережно отношусь
+          к каждому ребёнку, но работаю на результат, который остаётся с ребёнком на всю жизнь.
         </p>
         <p className="mt-4 text-lg text-ink-soft">
           [Плейсхолдер] Помогаю детям от 4 до 10 лет говорить чисто, уверенно и красиво.
@@ -35,7 +35,7 @@ export default function About() {
 
         <blockquote className="card-soft mt-8 border-l-4 border-coral bg-white p-6">
           <p className="font-accent text-2xl leading-snug text-ink sm:text-[28px]">
-            «Играя, мы мягко ставим звук [р] — ребёнок даже не замечает, что это занятие».
+            «Занимаюсь системно — именно это даёт устойчивый результат».
           </p>
           <footer className="mt-2 font-accent text-xl text-ink-soft">— Анастасия</footer>
         </blockquote>
