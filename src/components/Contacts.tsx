@@ -34,7 +34,7 @@ export default function Contacts() {
               <dd>{CONTACT_EMAIL}</dd>
             </div>
             <div className="flex gap-2">
-              <dt className="font-bold text-sky-dark">Telegram / WhatsApp:</dt>
+              <dt className="font-bold text-sky-dark">Telegram:</dt>
               <dd>[ссылка на мессенджер]</dd>
             </div>
           </dl>
