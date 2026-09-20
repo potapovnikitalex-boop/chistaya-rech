@@ -27,11 +27,27 @@ export default function Contacts() {
           <dl className="mt-8 space-y-3 text-ink-soft">
             <div className="flex gap-2">
               <dt className="font-bold text-sky-dark">Telegram:</dt>
-              <dd>@Octopus_Box</dd>
+              <dd>
+                <a
+                  href="https://t.me/Octopus_Box"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary underline-offset-2 hover:underline"
+                >
+                  @Octopus_Box
+                </a>
+              </dd>
             </div>
             <div className="flex gap-2">
               <dt className="font-bold text-sky-dark">Номер телефона:</dt>
-              <dd>+7 927 905 54 91</dd>
+              <dd>
+                <a
+                  href="tel:+79279055491"
+                  className="text-primary underline-offset-2 hover:underline"
+                >
+                  +7 927 905 54 91
+                </a>
+              </dd>
             </div>
             <div className="flex gap-2">
               <dt className="font-bold text-sky-dark">Почта:</dt>
