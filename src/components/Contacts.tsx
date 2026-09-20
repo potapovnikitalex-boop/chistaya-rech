@@ -55,7 +55,16 @@ export default function Contacts() {
             </div>
             <div className="flex gap-2">
               <dt className="font-bold text-sky-dark">Группа в VK:</dt>
-              <dd>https://vk.ru/yasnorechie</dd>
+              <dd>
+                <a
+                  href="https://vk.ru/yasnorechie"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary underline-offset-2 hover:underline"
+                >
+                  vk.ru/yasnorechie
+                </a>
+              </dd>
             </div>
           </dl>
         </div>
