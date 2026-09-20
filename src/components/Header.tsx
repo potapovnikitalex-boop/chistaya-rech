@@ -18,8 +18,9 @@ export default function Header() {
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
         <a href="#top" className="flex items-center gap-3">
           <img src={logo} alt="Ясноречье" className="h-14 w-14 sm:h-16 sm:w-16" />
-          <span className="font-heading text-lg font-extrabold text-sky-dark sm:text-xl">
-            Ясноречье
+          <span className="font-heading text-lg font-extrabold sm:text-xl">
+            <span className="text-leaf">Ясно</span>
+            <span className="text-ink">речье</span>
           </span>
         </a>
 
