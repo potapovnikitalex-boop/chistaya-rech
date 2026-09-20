@@ -11,47 +11,53 @@
 @custom-variant force-mobile (&:where([data-view='mobile'], [data-view='mobile'] *));
 
 /*
- * Дизайн-токены синхронизированы с брендбуком
- * (assets-source/brand-v2/Brendbuk_Anastasia_logoped_1.pdf, версия 1.0).
- * Не менять значения без сверки с брендбуком.
+ * Дизайн-токены синхронизированы с обновлённой палитрой заказчика
+ * (2026-09-20, см. раздел "Обновление цветовой палитры" в CLAUDE.md).
+ * Голубая палитра брендбука v1.0 заменена — не возвращать её без явной просьбы.
+ * Имена CSS-переменных (primary, sky-dark, yellow, sun, coral, teal, mint, leaf,
+ * ink, cream) сохранены, чтобы не переписывать классы во всех компонентах —
+ * сменились только HEX-значения.
  */
 @theme {
   --font-heading: 'Nunito', sans-serif;
   --font-body: 'Montserrat', sans-serif;
   --font-accent: 'Caveat', cursive;
 
-  /* Нейтральные (брендбук, стр. 2) */
-  --color-cream: #faf2df;
-  --color-cream-soft: #fffbf3;
-  --color-ink: #3a4248;
-  --color-ink-soft: #6b7480;
+  /* Нейтральные */
+  --color-cream: #fff7e8;
+  --color-cream-soft: #fffcf6;
+  --color-ink: #354252;
+  --color-ink-soft: #75808b;
+  --color-charcoal: #171b20;
+  --color-silver: #c9ced1;
 
-  /* Основной фирменный — голубой: заголовки, кнопки */
-  --color-primary: #498db8;
-  --color-primary-dark: #326486;
-  --color-primary-light: #dae7f0;
-  --color-sky-dark: #326486;
-  --color-sky-light: #dae7f0;
+  /* Основной фирменный — тёплый оранжевый: кнопки, иллюстрации, активные элементы */
+  --color-primary: #f7941d;
+  --color-primary-dark: #dd7e12;
+  --color-primary-light: #fde7c6;
+  /* sky-dark используется для заголовков — теперь тот же графитово-синий, что и текст */
+  --color-sky-dark: #354252;
+  --color-sky-light: #e4e7e9;
 
-  /* Тёплый жёлтый — акценты, звёздочки, выделения */
-  --color-yellow: #fbb220;
-  --color-yellow-light: #feefd1;
-  --color-sun: #fbb220;
+  /* Солнечный жёлтый — акценты, энергия, внимание */
+  --color-yellow: #ffc533;
+  --color-yellow-light: #fff3d2;
+  --color-sun: #ffc533;
 
-  /* Кораллово-оранжевый — яркие акценты, важные детали */
-  --color-coral: #da4f1f;
-  --color-coral-dark: #ae421d;
-  --color-coral-light: #f7dbd1;
+  /* Кораллово-красный — эмоциональные акценты */
+  --color-coral: #e94b35;
+  --color-coral-dark: #b93a28;
+  --color-coral-light: #fbdcd5;
 
-  /* Глубокий бирюзовый — второстепенные акценты, плашки */
-  --color-teal: #317c79;
-  --color-teal-dark: #245c5a;
-  --color-teal-light: #d5e4e3;
-  --color-mint: #d5e4e3;
+  /* Лиственный зелёный — развитие, спокойствие, природные элементы */
+  --color-teal: #4fa657;
+  --color-teal-dark: #3d7f44;
+  --color-teal-light: #e1f0de;
+  --color-mint: #e1f0de;
 
-  /* Зелёный — дополнительные акценты */
-  --color-leaf: #66ab65;
-  --color-leaf-light: #dfeddf;
+  /* Светлый шалфейный — доп. акцент (мелкие детали, буллеты) */
+  --color-leaf: #83b97d;
+  --color-leaf-light: #e9f2e6;
 }
 
 html {
@@ -74,7 +80,7 @@ body {
 
 .card-soft {
   border-radius: 28px;
-  box-shadow: 0 16px 40px -12px rgba(58, 66, 72, 0.14);
+  box-shadow: 0 16px 40px -12px rgba(53, 66, 82, 0.14);
 }
 
 .btn-pill {

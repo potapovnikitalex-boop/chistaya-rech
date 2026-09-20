@@ -14,7 +14,7 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <header className="sticky top-0 z-50 bg-white shadow-[0_9px_40px_rgba(22,36,61,0.1)]">
+    <header className="sticky top-0 z-50 bg-white shadow-[0_9px_40px_rgba(53,66,82,0.12)]">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
         <a href="#top" className="flex items-center gap-3">
           <img src={logo} alt="Ясноречье" className="h-14 w-14 sm:h-16 sm:w-16" />
