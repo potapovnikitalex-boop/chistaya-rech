@@ -4,7 +4,7 @@ import logo from '../assets/logo.png'
 const NAV_LINKS = [
   { href: '#about', label: 'Обо мне' },
   { href: '#services', label: 'Услуги' },
-  { href: '#process', label: 'Как проходят занятия' },
+  { href: '#process', label: 'Как проходит коррекция' },
   { href: '#testimonials', label: 'Отзывы' },
   { href: '#pricing', label: 'Тарифы' },
   { href: '#contacts', label: 'Контакты' },
@@ -17,9 +17,9 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white shadow-[0_9px_40px_rgba(22,36,61,0.1)]">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
         <a href="#top" className="flex items-center gap-3">
-          <img src={logo} alt="Чистая речь" className="h-14 w-14 sm:h-16 sm:w-16" />
+          <img src={logo} alt="Ясноречье" className="h-14 w-14 sm:h-16 sm:w-16" />
           <span className="font-heading text-lg font-extrabold text-sky-dark sm:text-xl">
-            Чистая речь
+            Ясноречье
           </span>
         </a>
 

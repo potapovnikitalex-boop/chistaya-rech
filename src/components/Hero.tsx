@@ -4,12 +4,12 @@ export default function Hero() {
   return (
     <section id="top" className="overflow-hidden bg-sky-light">
       <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-14">
-        <h1 className="sr-only">Чистая речь — Анастасия, учитель-логопед. Для детей от 4 лет</h1>
+        <h1 className="sr-only">Ясноречье — Анастасия, учитель-логопед. Для детей от 4 лет</h1>
 
         <div className="card-soft overflow-hidden bg-white">
           <img
             src={heroBanner}
-            alt="Анастасия — учитель-логопед. Чистая речь для детей от 4 лет: диагностика, постановка звуков, дифференцирование, формирование связной речи"
+            alt="Анастасия — учитель-логопед. Ясноречье для детей от 4 лет: диагностика, постановка звуков, дифференцирование, формирование связной речи"
             className="w-full"
           />
         </div>

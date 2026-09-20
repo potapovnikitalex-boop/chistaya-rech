@@ -1,6 +1,6 @@
 import { type FormEvent, useState } from 'react'
 
-const CONTACT_EMAIL = '[email@example.com]'
+const CONTACT_EMAIL = 'chistayarechlogoped1992@gmail.com'
 
 export default function Contacts() {
   const [submitted, setSubmitted] = useState(false)
@@ -26,16 +26,20 @@ export default function Contacts() {
 
           <dl className="mt-8 space-y-3 text-ink-soft">
             <div className="flex gap-2">
-              <dt className="font-bold text-sky-dark">Телефон:</dt>
-              <dd>[+7 (___) ___-__-__]</dd>
+              <dt className="font-bold text-sky-dark">Telegram:</dt>
+              <dd>@Octopus_Box</dd>
             </div>
             <div className="flex gap-2">
-              <dt className="font-bold text-sky-dark">Email:</dt>
+              <dt className="font-bold text-sky-dark">Номер телефона:</dt>
+              <dd>+7 927 905 54 91</dd>
+            </div>
+            <div className="flex gap-2">
+              <dt className="font-bold text-sky-dark">Почта:</dt>
               <dd>{CONTACT_EMAIL}</dd>
             </div>
             <div className="flex gap-2">
-              <dt className="font-bold text-sky-dark">Telegram:</dt>
-              <dd>[ссылка на мессенджер]</dd>
+              <dt className="font-bold text-sky-dark">Группа в VK:</dt>
+              <dd>https://vk.ru/yasnorechie</dd>
             </div>
           </dl>
         </div>

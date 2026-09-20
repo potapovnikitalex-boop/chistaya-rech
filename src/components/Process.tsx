@@ -16,8 +16,13 @@ const STEPS = [
   },
   {
     n: '4',
-    title: 'Материалы и домашка',
-    description: 'После каждого занятия — короткие задания и материалы для закрепления дома.',
+    title: 'Домашнее задание',
+    description: 'После каждого занятия — небольшие задания и материалы для закрепления дома.',
+  },
+  {
+    n: '5',
+    title: 'Результат',
+    description: 'Первые результаты появляются уже через 4–8 недель регулярной работы.',
   },
 ]
 
@@ -29,10 +34,10 @@ export default function Process() {
           Формат обучения
         </p>
         <h2 className="mt-2 text-center font-heading text-2xl font-extrabold text-sky-dark sm:text-3xl">
-          Как проходят занятия
+          Как проходит коррекция
         </h2>
 
-        <ol className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4 force-mobile:grid-cols-1!">
+        <ol className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 force-mobile:grid-cols-1!">
           {STEPS.map((step) => (
             <li key={step.n} className="card-soft bg-white p-6">
               <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary font-heading text-lg font-extrabold text-white">

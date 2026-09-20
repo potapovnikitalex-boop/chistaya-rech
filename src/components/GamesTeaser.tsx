@@ -14,7 +14,7 @@ export default function GamesTeaser() {
         <div className="card-soft overflow-hidden bg-white order-2 lg:order-1 force-mobile:order-2!">
           <img
             src={parrotBanner}
-            alt="Попугай-помощник — маскот игровой платформы «Чистая речь»"
+            alt="Попугай-помощник — маскот игровой платформы «Ясноречье»"
             className="h-full w-full object-cover"
           />
         </div>
@@ -24,7 +24,7 @@ export default function GamesTeaser() {
             Скоро на сайте
           </p>
           <h2 className="mt-2 font-heading text-2xl font-extrabold text-sky-dark sm:text-3xl">
-            Игровая платформа «Чистая речь»
+            Игровая платформа «Ясноречье»
           </h2>
           <p className="mt-4 text-lg text-ink-soft">
             Мы делаем отдельные развивающие игры для отработки звуков дома — между занятиями с
