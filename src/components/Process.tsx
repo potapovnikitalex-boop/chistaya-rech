@@ -30,10 +30,7 @@ export default function Process() {
   return (
     <section id="process" className="bg-cream py-16 sm:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <p className="text-center font-heading text-sm font-bold uppercase tracking-wide text-primary">
-          Формат обучения
-        </p>
-        <h2 className="mt-2 text-center font-heading text-2xl font-extrabold text-sky-dark sm:text-3xl">
+        <h2 className="text-center font-heading text-2xl font-extrabold text-sky-dark sm:text-3xl">
           Как проходит коррекция
         </h2>
 
